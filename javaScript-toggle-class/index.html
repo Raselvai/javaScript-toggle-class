@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="app, landing, corporate, Creative, Html Template, Template">
+    <meta name="author" content="web-themes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- title -->
+    <title>JavaScript Toggle Class</title>
+
+    <!-- favicon -->
+    <!-- <link href="img/favicon.png" type="image/png" rel="icon"> -->
+
+    <!-- all css here -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+      <div class="toggle_wrapper">
+          <div class="toggle_wrap">
+              <button onclick="myFunction()">Click Add Class Div</button>
+              <div id="myDIV">
+                  This is a DIV Element
+              </div>
+          </div>
+      </div>
+
+      <script>
+          
+          function myFunction() {
+            var element = document.getElementById("myDIV");
+            element.classList.toggle("mystyle");
+          }
+
+      </script>
+</body>
+</html>
